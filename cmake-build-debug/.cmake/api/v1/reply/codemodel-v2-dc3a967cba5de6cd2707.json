@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "01_BuildingBlocks",
+					"jsonFile" : "directory-01_BuildingBlocks-Debug-1fbc988e3d9c3b4ff580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "01_BuildingBlocks",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "02_Arrays",
+					"jsonFile" : "directory-02_Arrays-Debug-e72e297e1f062833af7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "02_Arrays",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "03_Vectors",
+					"jsonFile" : "directory-03_Vectors-Debug-750c2cbcbba4fa95e4a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "03_Vectors",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "04_Deques",
+					"jsonFile" : "directory-04_Deques-Debug-e8d8d9134a7e116f09ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "04_Deques",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2026_II_SW305"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "01_BuildingBlocks",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "02_Arrays",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "03_Vectors",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "04_Deques",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "01_BuildingBlocks::@315db3bd42c8b922d2fe",
+					"jsonFile" : "target-01_BuildingBlocks-Debug-6e0d133e16e518ee49c8.json",
+					"name" : "01_BuildingBlocks",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "02_Arrays::@298577dbf3b7abc44a16",
+					"jsonFile" : "target-02_Arrays-Debug-5dbdf9908d01d211de60.json",
+					"name" : "02_Arrays",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "03_Vectors::@525ffc5ef1fa300f1446",
+					"jsonFile" : "target-03_Vectors-Debug-b33956bfdab420b08233.json",
+					"name" : "03_Vectors",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "04_Deques::@e824175b82ff619a650f",
+					"jsonFile" : "target-04_Deques-Debug-e736dc77694f5c1994d0.json",
+					"name" : "04_Deques",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/cmake-build-debug",
+		"source" : "D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

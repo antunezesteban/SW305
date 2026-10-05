@@ -1,0 +1,12 @@
+# ninja log v5
+1	120	8123527787164975	build.ninja	b7e546890463986e
+6	782	8117322735900364	01_BuildingBlocks/CMakeFiles/01_BuildingBlocks.dir/main.cpp.obj	59868135bc60b7ac
+1435	1672	8117401575881533	02_Arrays/02_Arrays.exe	b43977e3ed286d35
+3	2031	8123527221103884	04_Deques/CMakeFiles/04_Deques.dir/main.cpp.obj	a4d8b8605381784a
+3	1435	8117401573543305	02_Arrays/CMakeFiles/02_Arrays.dir/main.cpp.obj	c60aa6931966da91
+782	954	8117322737554732	01_BuildingBlocks/01_BuildingBlocks.exe	3a96ef6e3e26202b
+3	1879	8123461252622479	03_Vectors/CMakeFiles/03_Vectors.dir/main.cpp.obj	b7f3b5a202ed32b
+1880	2343	8123461257272175	03_Vectors/03_Vectors.exe	2618a96707c7dcdd
+2032	2671	8123527227508424	04_Deques/04_Deques.exe	bd33be0f4d652251
+3	1962	8123527832708568	04_Deques/CMakeFiles/04_Deques.dir/main.cpp.obj	a4d8b8605381784a
+1963	2538	8123527838474550	04_Deques/04_Deques.exe	bd33be0f4d652251
