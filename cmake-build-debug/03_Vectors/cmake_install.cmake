@@ -1,8 +1,8 @@
-# Install script for directory: D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/03_Vectors
+# Install script for directory: C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN/03_Vectors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2026_II_SW305")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SW_305_ESTEBAN")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,8 +32,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.3.5/bin/mingw/bin/objdump.exe")
 endif()
 

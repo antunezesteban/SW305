@@ -1,8 +1,8 @@
-# Install script for directory: D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305
+# Install script for directory: C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2026_II_SW305")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SW_305_ESTEBAN")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,38 +32,46 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.3.5/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/cmake-build-debug/01_BuildingBlocks/cmake_install.cmake")
+  include("C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN/cmake-build-debug/01_Buildingblocks/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/cmake-build-debug/02_Arrays/cmake_install.cmake")
+  include("C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN/cmake-build-debug/02_arrays/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/cmake-build-debug/03_Vectors/cmake_install.cmake")
+  include("C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN/cmake-build-debug/03_Vectors/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/cmake-build-debug/04_Deques/cmake_install.cmake")
+  include("C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN/cmake-build-debug/04_Deques/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+  if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
+    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+  else()
+    string(MD5 CMAKE_INST_COMP_HASH "${CMAKE_INSTALL_COMPONENT}")
+    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INST_COMP_HASH}.txt")
+    unset(CMAKE_INST_COMP_HASH)
+  endif()
 else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/UNI/2026-2/ALGORITMIA Y ESTUCTRUCTURA DE DATOS AVANZADA/2026_II_SW305/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Usuario/CLionProjects/SW_305 ESTEBAN/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
